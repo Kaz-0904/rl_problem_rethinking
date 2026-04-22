@@ -1,0 +1,15 @@
+{
+  "name": "holes_respawn_to_start",
+  "desc": [
+    "SFFFFFFF",
+    "FFFFFFFF",
+    "FFFHFFFF",
+    "FFFFFHFF",
+    "FFFHFFFF",
+    "FHHFFFHF",
+    "FHFFHFHF",
+    "FFFHFFFG"
+  ],
+  "env_mode": "respawn_on_hole",
+  "description": "Stepping into a hole respawns the agent to start and the episode continues."
+}

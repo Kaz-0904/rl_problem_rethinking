@@ -1,0 +1,35 @@
+{
+  "desc": [
+    "SFFFFFFF",
+    "FFFFFFFF",
+    "FFFHFFFF",
+    "FFFFFHFF",
+    "FFFHFFFF",
+    "FHHFFFHF",
+    "FHFFHFHF",
+    "FFFHFFFG"
+  ],
+  "n_seeds": 100,
+  "n_episodes": 30000,
+  "max_steps": 200,
+  "alpha": 0.1,
+  "gamma": 0.99,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "epsilon_decay_ratio": 0.6,
+  "beta_dense": 0.2,
+  "hole_potential": -1.5,
+  "moving_average_window": 200,
+  "snapshot_episodes": [
+    0,
+    100,
+    500,
+    1000,
+    3000,
+    10000,
+    30000
+  ],
+  "checkpoint_every_runs": 10,
+  "max_workers": 8,
+  "outdir": "/Users/jifu/Desktop/rllib-rensyu/results_frozenlake8x8_qlearning_suite__20260422_125058_611498/holes_respawn_to_start"
+}
