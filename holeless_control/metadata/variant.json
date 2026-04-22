@@ -1,0 +1,15 @@
+{
+  "name": "holeless_control",
+  "desc": [
+    "SFFFFFFF",
+    "FFFFFFFF",
+    "FFFFFFFF",
+    "FFFFFFFF",
+    "FFFFFFFF",
+    "FFFFFFFF",
+    "FFFFFFFF",
+    "FFFFFFFG"
+  ],
+  "env_mode": "standard",
+  "description": "Control condition. Holes are replaced by frozen tiles."
+}
